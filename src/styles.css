@@ -3,6 +3,8 @@ body {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-weight: 100;
+  max-width: 1200px;
+  margin: 20px auto;
 }
 
 h1 {
@@ -10,6 +12,7 @@ h1 {
   font-size: 90px;
   font-weight: 100;
   text-align: center;
+  margin-top: 20px;
 }
 
 p.artistbio {
@@ -56,12 +59,11 @@ p.play {
 }
 
 @media (max-width: 770px) {
-  h1,
-  h2 {
-    font-size: 48px;
+  h1 {
+    font-size: 60px;
   }
 
   .links a {
-    font-size: 21px;
+    font-size: 18px;
   }
 }
