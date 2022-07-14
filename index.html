@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <!--bootstrap https://getbootstrap.com/docs/5.2/getting-started/introduction/-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <!--google fonts: "inter" https://fonts.google.com/-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@100;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--font awesome https://fontawesome.com/kits/606d8453fd/use-->
+    <script
+      src="https://kit.fontawesome.com/606d8453fd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <title>Eso Bee</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-sm navbar-light bg-accent">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html#email">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main">
+        <div>
+          <h1>Eso Bee</h1>
+          <!--<p class="artistbio">
+            Portland, Oregon-based drummer turned singer-songwriter.
+          </p>-->
+        </div>
+
+        <div class="row listenon">
+          <div class="col-sm-4">
+            <h4 class="listen">
+              <a href="https://open.spotify.com/album/7nF83Rh4ZzqKUOCaWnvVQM?si=Ht7c0X-dTXq5vv3rB4f_eA"
+                ><i class="fa-brands fa-spotify"></i> Listen on Spotify</a
+              >
+            </h4>
+          </div>
+          <div class="col-sm-4">
+            <h4 class="listen">
+            <a href="https://esobee.bandcamp.com/album/teardrops"
+              ><i class="fa-brands fa-bandcamp"></i> Listen on Bandcamp</a
+            >
+            </h4>
+          </div>
+          <div class="col-sm-4">
+            <h4 class="listen">
+            <a href="#"
+              >
+              <i class="fa-brands fa-itunes"></i> Listen on Apple Music</a
+            >
+          </h4>
+        </div>
+       
+
+      
+        <div class="row album">
+          <div class="col-sm-6 p-4">
+              <a href="https://esobee.bandcamp.com/album/teardrops">
+                <!--<p class="play">
+                  <i class="fa-solid fa-circle-play"></i>
+                </p>-->
+                <img src="/images/album_art.jpg" class="img-fluid" alt="" />
+              </a>
+          </div>
+
+          <div class="col-sm-6 p-4 albuminfo">
+            <h2>Teardrops</h2>
+            <p class="albumdesc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+              eaque exercitationem dolore
+            </p>
+            <iframe
+              style="border: 0; width: 100%; height: 373px"
+              src="https://bandcamp.com/EmbeddedPlayer/album=2807779792/size=large/bgcol=ffffff/linkcol=63b2cc/artwork=none/transparent=true/"
+              seamless
+              ><a href="https://esobee.bandcamp.com/album/teardrops"
+                >Teardrops by Eso Bee</a
+              ></iframe
+            >
+          </div>
+        </div>
+
+        <div class="row about">
+          <div class="col-sm-8 p-4 about" id="about">
+            <h2>About</h2>
+            <p>
+            Teardrops, my first solo album, is a blend of surf rock, piano ballads, and feel-good tunes that pair well with summer road trips and rainy days. <br><br>
+            The album has a loose and breezy vibe that reflects a spontaneous approach to songwriting. Suzy Lee was inspired by the birth of my friend's baby, for whom I wrote a quick piano tune the day she was born. Teardrops began as a loop jam with improvised lyrics. Bad Times popped into my head while I was watching a film set in the rural midwest, with country/folk singers crooning over the car radio.<br><br>
+            The songs flow through a range of styles, but what keeps them together is a sense that it feels right, and that even in dark times, we can still find some light.<br><br>
+            This is my first self-recorded, multi-instrument effort, playing drums, guitar, piano, and bass as well as singing.
+            </p>
+          </div>
+
+          <div class="col-sm-4 p-4">
+            <div class="img-frame">
+              <img src="/images/steve.jpeg" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="m-3">
+        <a href="mailto:stephanbarry@gmail.com" class="contact" id="email">
+          <h3 class="p-0"><i class="fas fa-envelope"></i> Get in touch</h3>
+          <p>stephanbarry@gmail.com</p>
+        </a>
+      </footer>
+    </div>
+
+    <!--bootstrap https://getbootstrap.com/docs/5.2/getting-started/introduction/-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
