@@ -42,6 +42,10 @@ a {
   text-decoration: none;
 }
 
+small {
+  margin: 40px 0 40px 0;
+}
+
 p.play {
   font-size: 72px;
   position: absolute;
